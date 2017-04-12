@@ -3,7 +3,6 @@ class Pessoas {
     this.nome = !nome ? 'nome indefinido' : nome;
     this.ano = !ano ? 'ano não informado' : ano;
   }
-/*
   get nome() {
     return this.nome_;
   }
@@ -19,7 +18,6 @@ class Pessoas {
   set ano(ano) {
     this.ano_ = !ano ? 'ano não informado' : ano;
   }
-*/
   toString() {
     return `${this.nome}, nasceu em ${this.ano}`;
   }
